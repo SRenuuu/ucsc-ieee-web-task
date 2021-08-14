@@ -39,18 +39,18 @@ hr.style-one {
     white-space: pre-line;
 }
 
-.preloader {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    z-index: 9999;
-    background-color: #fff;
-    background-image: url(../images/preloader.gif);
-    background-repeat: no-repeat;
-    background-position: center center;
-}
+/*.preloader {*/
+/*    position: fixed;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    width: 100%;*/
+/*    height: 100%;*/
+/*    z-index: 9999;*/
+/*    background-color: #fff;*/
+/*    background-image: url(../images/preloader.gif);*/
+/*    background-repeat: no-repeat;*/
+/*    background-position: center center;*/
+/*}*/
 
 .scroll-to-top {
     display: inline-block;
