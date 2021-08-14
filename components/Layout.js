@@ -24,7 +24,7 @@ const Layout = ({pageTitle, children}) => {
       <Head>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
         <title>{pageTitle}</title>
-        <link rel="shortcut icon" href="/static/favicon.ico"/>
+        {/*<link rel="shortcut icon" href="/static/favicon.ico"/>*/}
         <meta name="theme-color" content="#000000"/>
         <meta
           name="description"
@@ -45,7 +45,7 @@ const Layout = ({pageTitle, children}) => {
           duration={500}
           className="scroll-to-top"
         >
-          <i className="fa fa-angle-up"></i>
+          <i className="fa fa-angle-up"/>
         </ScrollLink>
       ) : null}
     </div>

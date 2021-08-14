@@ -1,3 +1,4 @@
+import React from "react";
 import "typeface-roboto";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "../assets/css/animate.css";
