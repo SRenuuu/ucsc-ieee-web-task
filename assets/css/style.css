@@ -889,61 +889,6 @@ ul.navigation-box
     color: #fff;
 }
 
-.hero-section.home-page-two {
-    padding-bottom: 277px;
-    background: #fff url(../images/banner-bg-1-2.png) top right no-repeat;
-    background-size: cover;
-    margin-bottom: 60px;
-}
-
-.hero-section.home-page-two:before {
-    border-color: rgba(255, 255, 255, 0.04);
-}
-
-.hero-section.home-page-two:after {
-    border-color: rgba(255, 255, 255, 0.02);
-}
-
-.hero-section.home-page-two [class*="bubble-"] {
-    background-color: transparent !important;
-    border-width: 2px;
-}
-
-.hero-section.home-page-two .banner-mock {
-    right: 0;
-    top: 20%;
-}
-
-.hero-section.home-page-two .content-block h3 {
-    color: #fff;
-}
-
-.hero-section.home-page-two .content-block p {
-    color: #d6c9e4;
-}
-
-.hero-section.home-page-two .content-block .banner-btn {
-    color: #fff;
-    border-style: solid;
-    border-width: 1px;
-    border-color: white;
-    border-radius: 3px;
-    background-color: transparent;
-    box-shadow: 0px 15px 30px 0px rgba(255, 255, 255, 0.1);
-}
-
-.hero-section.home-page-two .content-block .banner-btn i {
-    color: #fff;
-}
-
-.hero-section.home-page-two .content-block .banner-btn:hover {
-    background-color: #273167;
-    border-color: #273167;
-}
-
-/*
-* 4.footer styles
-*/
 .site-footer {
     position: relative;
 }
@@ -1348,7 +1293,7 @@ ul.navigation-box
     content: "";
     width: 100%;
     height: 251px;
-    background: #fff url(../images/bg-curve-1-1.png) center center no-repeat;
+    background: #fff url(../images/re-bg-curve-1-1.png) center center no-repeat;
     background-size: cover;
     position: absolute;
     bottom: 0;
