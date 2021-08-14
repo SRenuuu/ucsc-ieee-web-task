@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-  "homepage": "https://github.com/SRenuuu/ucsc-ieee-web-task",
+  "homepage": "https://srenuuu.github.io/ucsc-ieee-web-task/",
   "dependencies": {
     "bootstrap": "^4.5.0",
     "next": "9.3.2",
