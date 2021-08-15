@@ -1,5 +1,6 @@
 import React from "react";
 import {Container, Row, Col} from "react-bootstrap";
+import EventCountdown from "./EventCountdown";
 
 const HeroSection = () => {
   return (
@@ -21,7 +22,7 @@ const HeroSection = () => {
                 24-hour competitive programming competition <br/>for UCSC undergraduates
               </p>
               <p className="mt-5 mb-3">
-                <em>Registrations open in</em>
+                <em>Registration opens in</em>
               </p>
 
               {/*<div className="button-block">*/}
@@ -30,40 +31,7 @@ const HeroSection = () => {
               {/*  </a>*/}
               {/*</div>*/}
 
-              <Row className="mx-0 px-0 mx-lg-5 px-lg-5 countdown">
-                <Col xs={3}>
-                  <div className="single-funfact-one text-center">
-                    <h3 className="counter">
-                      12
-                    </h3>
-                    <p>Days</p>
-                  </div>
-                </Col>
-                <Col xs={3}>
-                  <div className="single-funfact-one text-center">
-                    <h3 className="counter">
-                      5
-                    </h3>
-                    <p>Hours</p>
-                  </div>
-                </Col>
-                <Col xs={3}>
-                  <div className="single-funfact-one text-center">
-                    <h3 className="counter">
-                      30
-                    </h3>
-                    <p>Minutes</p>
-                  </div>
-                </Col>
-                <Col xs={3}>
-                  <div className="single-funfact-one text-center">
-                    <h3 className="counter">
-                      30
-                    </h3>
-                    <p>Seconds</p>
-                  </div>
-                </Col>
-              </Row>
+              <EventCountdown/>
             </div>
 
           </Col>

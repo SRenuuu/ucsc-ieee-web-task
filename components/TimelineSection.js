@@ -5,7 +5,6 @@ import {IoBookSharp, IoCheckmarkSharp, IoRocketSharp, IoTrophySharp} from "react
 
 const TimelineSection = () => {
   return (
-
     <section className="timeline-styles" id="timeline">
       <Container>
         <div className="block-title text-center pb-3">
